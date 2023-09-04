@@ -27,3 +27,9 @@ export interface Menu {
   img?: string;
   color: string;
 }
+
+export interface PriceProps {
+  price: number;
+  id: number;
+  options?: { title: string; additionalPrice: number }[];
+}
